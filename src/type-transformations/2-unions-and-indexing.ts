@@ -1,6 +1,6 @@
 // import { Equal, Expect } from "../helpers/type-utils";
 
-import { Equal, Expect } from "./type-utils";
+import { Equal, Expect } from "../type-utils";
 
 //Extract from discriminated union
 

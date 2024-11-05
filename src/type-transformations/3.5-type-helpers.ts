@@ -1,4 +1,4 @@
-import { Equal, Expect } from "./type-utils";
+import { Equal, Expect } from "../type-utils";
 
 type ReturnWhatIPassIn<T> = T;
 

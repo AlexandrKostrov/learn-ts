@@ -1,4 +1,4 @@
-import { Equal, Expect } from "./type-utils";
+import { Equal, Expect } from "../type-utils";
 
 type Route = `/${string}`;
 
@@ -109,5 +109,5 @@ type tests5 = [
 type UppercaseString<S extends string> = S extends `${infer First}${infer Rest}`
   ? `${Uppercase<First>}${Rest}`
   : S;
-  
+
 type Test1 = UppercaseString<"hello">;
